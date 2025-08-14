@@ -1,0 +1,28 @@
+1. What happens when the number of hidden nodes increase?
+
+More hidden nodes = more capacity for the neural network.
+Each hidden node learns a different feature or pattern.
+
+**With a small number of hidden nodes (e.g., 1–2): The model is too simple. Can’t capture complex patterns → underfitting → low accuracy.
+
+**With a large number of hidden nodes (e.g., 20–50): The model can learn more complex and flexible decision boundaries. Accuracy improves because it can better separate the data.
+
+**But if the hidden layer is too large: Model may memorize the training data (overfitting). Accuracy on training data is high, but performance on new/unseen data may drop.
+
+
+2. Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+Usually, the pattern looks like this:
+
+**Very few nodes (1–2):
+Accuracy is low (model too simple, underfits).
+
+**Moderate number of nodes (3–10):
+Accuracy improves steadily. Model starts fitting data better.
+
+**Larger number of nodes (20–50):
+Accuracy becomes very high on training data.
+Decision boundary becomes more complex and precise.
+
+**Extremely large number (hundreds or more):
+Training accuracy may be 100%, but test accuracy can drop (overfitting).
